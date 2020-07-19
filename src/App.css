@@ -1,38 +1,75 @@
 .App {
   text-align: center;
+  height: 100%;
+  min-height: 600px;
+  margin: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home-page {
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mycard {
+  height: 40vh;
+  border: solid 0.5px rgb(75, 148, 100);
+  margin: -12px;
+  font-size: 12px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.mycard:hover {
+  margin-top: -30px;
+  font-size: 16px;
+  background-color: rgb(148, 209, 219);
 }
 
-.App-link {
-  color: #61dafb;
+.imgDay {
+  height: 20vh;
+  margin-left: -37px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btnAdd {
+  color: aliceblue;
+}
+
+.cardWeather {
+  padding: 30px;
+  margin-top: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 14vh;
+  font-size: 14px;
+  border: solid 1px rgb(87, 102, 143);
+}
+
+.cardWeather:hover {
+  font-size: larger;
+  background-color: rgb(148, 209, 219);
+}
+
+.textInfo {
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#like {
+  color: red;
+}
+
+.switch {
+  color: azure;
+}
+
+.favorit {
+  font-size: 40px;
+  color: black;
+  font-weight: 600;
+}
+
+.cityName {
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
 }
